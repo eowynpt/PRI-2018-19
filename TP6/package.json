@@ -1,15 +1,16 @@
 {
-  "name": "tpc5",
+  "name": "tpc6",
   "version": "1.0.0",
-  "description": "TPC5-AMD",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js",
-    "index": "gawk -f index.awk data/json/*.json"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "diana",
   "license": "ISC",
   "dependencies": {
+    "jsonfile": "^5.0.0",
     "pug": "^2.0.3"
   }
 }
